@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download Artifact 
+      - name: Download FArtifact 
         uses: actions/download-artifact@v2
         with:
          name: hello-artifact
